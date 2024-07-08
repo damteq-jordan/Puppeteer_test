@@ -29,7 +29,7 @@ await page.goto(site, {
 // PAGE SPECIFIC STUFF //
 // Login to Kinetec //
 await page.locator('#user_login').fill('damteq');
-await page.locator('#user_pass').fill('tg2CFdH9ACT)rGdp9QapC&qI');
+await page.locator('#user_pass').fill('');
 await page.locator('#wp-submit').click();
 await page.waitForNavigation();
 // Listen for all responses

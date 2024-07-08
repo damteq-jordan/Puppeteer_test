@@ -1,0 +1,4 @@
+2024/07/08-11:55:51.908 5303 Reusing MANIFEST /Users/damteq/Desktop/Puppeteer/tmp/Default/Local Storage/leveldb/MANIFEST-000001
+2024/07/08-11:55:51.910 5303 Recovering log #3
+2024/07/08-11:55:51.910 5303 (ignoring error) /Users/damteq/Desktop/Puppeteer/tmp/Default/Local Storage/leveldb/000003.log: dropping 14238 bytes; Corruption: checksum mismatch
+2024/07/08-11:55:51.911 5303 Reusing old log /Users/damteq/Desktop/Puppeteer/tmp/Default/Local Storage/leveldb/000003.log 

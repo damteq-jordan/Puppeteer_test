@@ -1,0 +1,16 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "Testing grounds for Puppeteer work",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./index.js"
+  },
+  "author": "Jordan Da Graca",
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^3.1.4",
+    "puppeteer": "^22.12.1"
+  }
+}

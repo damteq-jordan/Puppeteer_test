@@ -1,3 +1,6 @@
+// ENV
+import 'dotenv/config';
+
 // Puppeteer
 import puppeteer from 'puppeteer';
 const site = 'https://kinetecuk.com/letmein';
@@ -29,7 +32,7 @@ await page.goto(site, {
 // PAGE SPECIFIC STUFF //
 // Login to Kinetec //
 await page.locator('#user_login').fill('damteq');
-await page.locator('#user_pass').fill('');
+await page.locator('#user_pass').fill(process.env.KINETECPASS);
 await page.locator('#wp-submit').click();
 await page.waitForNavigation();
 // Listen for all responses

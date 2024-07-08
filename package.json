@@ -10,6 +10,7 @@
   "author": "Jordan Da Graca",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.4.5",
     "nodemon": "^3.1.4",
     "puppeteer": "^22.12.1"
   }

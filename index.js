@@ -39,9 +39,11 @@ await page.waitForNavigation();
 page.on('response', async (response) => {
     // Check if the status code is 500
     if (response.status() === 500) {
+        // Unsuccessfully loads site
         console.error(`500 error detected: ${response.url()}`);
         await page.close();
     } else if (response.status() === 200) {
+        // Successfully loads site
         console.log('Site loads as expected');
         await page.close();
     }

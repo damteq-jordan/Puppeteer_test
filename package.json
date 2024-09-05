@@ -1,17 +1,19 @@
 {
-  "name": "puppeteer",
+  "name": "damteq-puppeteer",
   "version": "1.0.0",
-  "description": "Testing grounds for Puppeteer work",
+  "description": "Test to evaluate puppeteer viability",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "dev": "nodemon ./index.js"
+    "dev": "nodemon index.js"
   },
   "author": "Jordan Da Graca",
-  "license": "MIT",
+  "type": "module",
+  "license": "ISC",
   "dependencies": {
+    "@slack/bolt": "^3.19.0",
     "dotenv": "^16.4.5",
+    "mysql2": "^3.11.0",
     "nodemon": "^3.1.4",
-    "puppeteer": "^22.12.1"
+    "puppeteer": "^22.15.0"
   }
 }

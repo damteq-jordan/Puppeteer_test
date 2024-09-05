@@ -41,7 +41,7 @@ con.connect(function(err) {
 //     if (err) throw err;
 //     var sql = "INSERT INTO damteq_clients (Client_Name, Client_Url) VALUES ?";
 //     var values = [
-//       ['Marine Lighting Store', 'https://www.marinelightingstore.com']
+//       ['sitename', 'siteurl']
 //     ];
 //     con.query(sql, [values], function (err, result) {
 //       if (err) throw err;
